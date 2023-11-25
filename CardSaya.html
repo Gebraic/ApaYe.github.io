@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HBD Richelle</title>
+  
+  <link rel="stylesheet" href="css/styleSaya.css">
+</head>
+
+<body>
+ <h2>Click this card</h2>
+<div class="body">
+ <div class="birthdayCard">
+<div class="cardFront"><h3 class="happy">HAPPY BIRTHDAY!</h3>
+<div class="balloons">
+  <div class="balloonOne"></div>
+  <div class="balloonTwo"></div>
+  <div class="balloonThree"></div>
+  <div class="balloonFour"></div>
+</div>
+</div>
+<div class="cardInside">
+    <h3 class="back">HAPPY BIRTHDAY!</h3>
+    <p>HBD Ricel</p> 
+    <p>Semoga ga pake isolasi jerawat lagi, semoga juteknya berkurang wkwkwkkwk, WUATB n GBU</p>
+    <p class="name">D???</p>
+  </div>
+</div>
+<ul>
+  <li class="prev" onclick="navigate('prev')"><span></span></li>
+  <li class="next" onclick="navigate('next')"><span></span></li>
+</ul>
+
+<script>
+  function navigate(direction) {
+      // Assuming you have "page1.html" and "page2.html" in the same directory
+      if (direction === 'prev') {
+          window.location.href = 'CardNayma.html';
+      } else if (direction === 'next') {
+          window.location.href = 'cake.html';
+      }
+  }
+</script>
+</div>
+</body>
+</html>
